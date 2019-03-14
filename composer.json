@@ -1,0 +1,42 @@
+{
+  "name": "saboteur777/delete-entries",
+  "description":"This plugin allows you to delete entries from the front-end of your website.",
+  "version": "0.1.0",
+  "type": "craft-plugin",
+  "keywords": [
+    "cms",
+    "craftcms",
+    "yii2",
+    "delete",
+    "entries",
+    "front-end"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ottó Radics",
+      "homepage": "https://www.webmenedzser.hu"
+    }
+  ],
+  "support": {
+    "email": "otto@webmenedzser.hu",
+    "issues": "https://github.com/Saboteur777/craftcms-delete-entries/issues?state=open",
+    "source": "https://github.com/Saboteur777/craftcms-delete-entries",
+    "docs": "https://github.com/Saboteur777/craftcms-delete-entries",
+    "rss": "https://github.com/Saboteur777/craftcms-delete-entries/commits/master.atom"
+  },
+  "require": {
+    "craftcms/cms": "^3.0.0-beta.30"
+  },
+  "autoload": {
+    "psr-4": {
+      "saboteur777\\deleteentries\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Delete Entries",
+    "handle": "delete-entries",
+    "changelogUrl": "https://raw.githubusercontent.com/Saboteur777/craftcms-delete-entries/master/CHANGELOG.md",
+    "downloadUrl": "https://github.com/Saboteur777/deleteentries/archive/master.zip"
+  }
+}
