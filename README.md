@@ -1,4 +1,4 @@
-# Guest Entries plugin for Craft
+# Delete Entries plugin for Craft
 
 This plugin is a fork of the [Guest Entries](https://github.com/craftcms/guest-entries) plugin by Pixel & Tonic. It allows you to delete entries from the front-end of your website. Any PR is welcome, as this is my first venture to the land of Craft plugins.
 
